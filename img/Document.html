@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+<link rel="stylesheet" href="./Document_files/style.css"></head>
+
+<body data-new-gr-c-s-check-loaded="14.1031.0" data-gr-ext-installed="">
+    <header>
+        <h1>Tell Something About that happed to You</h1>
+    </header>
+
+    <form>
+        <div class="form-input1">
+            <label for="#" class="name-label border-red">Name</label>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div class=" form-input1">
+            <label for="#" class="name-label">Email</label>
+            <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="form-input2">
+            <label for="#">On scale 1-10 how good was it</label>
+            <input type="text" placeholder="Enter your number 1 to 10">
+        </div>
+        <div class="form-input3">
+            <label for="#">Where did it happed?</label>
+            <select name="" class="drop-down">
+                <option value="at home">At Home</option>
+                <option value="at Gym">At Gym</option>
+            </select>
+        </div>
+        <div class="form-input4">
+            <label for="#">At what time of day did it happen?</label>
+            <div class="check-boxs">
+                <input type="checkbox" id="Lion" name="Lion" value="Lion">
+                <label for="Lion"> Lion</label>
+            </div>
+            <div class="check-boxs">
+                <input type="checkbox" id="Cat" name="Cat" value="Cat">
+                <label for="vehicle2"> Cat</label>
+            </div>
+            <div class="check-boxs">
+                <input type="checkbox" id="Human" name="Human" value="Human">
+                <label for="Human">Human</label>
+            </div>
+            <div class="check-boxs">
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle2"> Anacoda</label>
+            </div>
+        </div>
+    </form>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

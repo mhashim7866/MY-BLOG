@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+    font-family: "Raleway", sans-serif
+       
+}
+
+.blog-section{
+    width: 100%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.blog-section p{
+    margin-top: 20px;
+
+}
+
+header span{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 3px;
+}
+
+.container{
+   margin-left: 5%; 
+   width: 100%;
+
+
+}
+.card{
+    width: 55%;
+    box-shadow: 5px 8px 15px 15px rgba(0,0,0,0.16);
+
+ 
+}
+.opacity{
+    opacity: 0.60;
+}
+
+.card img{
+    width: 100%;
+
+}
+
+.card p{
+    margin: 15px;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 100%;
+}
+.card h2{
+    margin: 15px;
+    justify-content: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 100%;
+}
+.card h5{
+    margin: 15px;
+    justify-content: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.read-button{
+    border: 1px solid rgb(85, 85, 85);
+    cursor: pointer;
+    padding: 8px;
+    margin: 15px;
+}
+
+.read-button:hover{
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+ 
+}
+
+.container-2{
+    margin-top: 5%;
+    margin-left: 5%; 
+    width: 100%;
+ 
+ 
+ }
+ .card-2{
+    width: 55%;
+    box-shadow: 5px 8px 15px 15px rgba(0,0,0,0.16);
+    margin-bottom: 5%;
+  
+ }
+ .opacity{
+    opacity: 0.60;
+ }
+ 
+ .card-2 img{
+    width: 100%;
+ 
+ }
+ 
+ .card-2 p{
+     margin: 15px;
+     justify-content: center;
+     font-weight: 400;
+     font-size: 100%;
+ }
+ .card-2 h2{
+     margin: 15px;
+     justify-content: center;
+     width: 100%;
+     font-weight: 400;
+     font-size: 100%;
+ }
+ .card-2 h5{
+     margin: 15px;
+     justify-content: center;
+     width: 100%;
+     font-weight: 400;
+     font-size: 100%;
+ }
+ 
+ .read-button{
+     border: 1px solid rgb(85, 85, 85);
+     cursor: pointer;
+     padding: 8px;
+     margin: 15px;
+ }
+ 
+ .read-button:hover{
+     background-color: rgb(68, 68, 68);
+     color: rgb(255, 255, 255);
+  
+ }
+
+footer{
+    background-color: rgb(140, 140, 140);
+    padding: 20px;
+}
+
+.button-1{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+
+.button-2{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px;
+}
+
+.button-2:hover{
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+ 
+}
+
+.col-3{
+    margin-right: 35px;
+    margin-top: -79.5%;
+    float: right;
+    width: 30%;
+    box-shadow: 5px 8px 15px 15px rgba(0,0,0,0.16);
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.col-3 h2{
+    margin: 15px;
+}
+
+.col-3 p{
+    margin: 15px;
+}
+
+.col-2{
+    margin-right: 35px;
+    margin-top: -79.5%;
+    float: right;
+    width: 30%;
+    box-shadow: 5px 8px 15px 15px rgba(0,0,0,0.16);
+}
+
+.col-2 img{
+    width: 100%;
+}
+
+.col-2 h2{
+    margin: 15px;
+}
+
+.col-2 p{
+    margin: 15px;
+}
+

@@ -1,0 +1,75 @@
+header h1{
+   text-align: center;
+}
+
+
+form{
+    width: 100%;
+    margin-left: 14%;
+}
+
+.form-input1 input{
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    margin-left: 35%;
+}
+
+.form-input2 input{
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    margin-left: 35%;
+
+}
+
+.form-input1 label{
+    margin-left: 30%;
+    float: left;
+}
+
+
+.form-input2 label{
+    margin-left: 18.3%;
+    float: left;
+}
+
+.form-input3 input{
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    margin-left: 35%;
+
+}
+
+.form-input3 label{
+    margin-left: 23%;
+    float: left;
+}
+
+.drop-down{
+    width: 13.5%;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.form-input4 input{
+    
+    margin: 10px;
+    padding: 5px;
+    display: block;
+    margin-left: 35%;
+
+}
+
+.form-input4 label{
+    margin-left: 16.5%;
+    float: left;
+}
+
+
+.check-boxs{
+    display: flex;
+    flex-direction: row;
+
+}
